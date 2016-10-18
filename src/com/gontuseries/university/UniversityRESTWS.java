@@ -15,8 +15,8 @@ public class UniversityRESTWS {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String getHTMLUniversityInfo(){
-		return "<html>" + "<title>" + "University Information" + "</title>"
-				+ "<body><h1>" + "NAME- Indian University" + "</body></h1>" +
+		return "<html>" + "<title>" + "Abdelhalim's website" + "</title>"
+				+ "<body><h1>" + "Welcome to Abdelhalim's RESTful web Service :D " + "</body></h1>" +
 				"</html>";
 		
 	}
